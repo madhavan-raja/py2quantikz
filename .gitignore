@@ -1,1 +1,4 @@
-__pycache__
+__pycache__/
+*.pyc
+dist/
+py2quantikz.egg-info/
