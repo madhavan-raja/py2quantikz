@@ -35,16 +35,7 @@ class QuantumCircuit:
 
         self.circuit.append(applications)
 
-    # def apply(self, gate: CircuitElement, targ: int, ctrl: (None | int | list) = None) -> None:
-    #     if ctrl is None:
-    #         ctrl = list()
-    #     elif isinstance(ctrl, int):
-    #         ctrl = [ctrl]
 
-    #     application = GateApplication(gate, targ, ctrl)
-    #     self.circuit.append(application)
-
-    
     def generate_quantikz_list(self) -> list:
         quantikz_list = list()
 
