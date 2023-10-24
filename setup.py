@@ -1,10 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'Converts Quantum Circuit Code to quantikz Diagrams'
 LONG_DESCRIPTION = open('README.md').read()
-
-print(LONG_DESCRIPTION)
 
 setup(
     name='py2quantikz',
@@ -16,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     url='https://github.com/madhavan-raja/py2quantikz',
-    packages=find_packages(),
+    packages=["py2quantikz"],
     keywords=['python', 'tikz', 'quantikz', 'latex', 'quantum'],
     classifiers=[
         'Programming Language :: Python :: 3',
