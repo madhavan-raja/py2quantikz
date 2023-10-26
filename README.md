@@ -32,7 +32,7 @@ quantikz_repr = circuit.quantikz()
 print(quantikz_repr)
 ```
 
-This will result in
+This will give you
 
 ```latex
 Q_0 & \gate{H} & \ctrl{1} & \meter{} & \\
